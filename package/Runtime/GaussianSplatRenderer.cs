@@ -159,6 +159,7 @@ namespace GaussianSplatting.Runtime
                 cmb.DrawProcedural(gs.m_GpuIndexBuffer, matrix, displayMat, 0, topology, indexCount, instanceCount, mpb);
                 cmb.EndSample(s_ProfDraw);
                 Debug.Log("indexCount: " + indexCount);
+                Debug.Log("instanceCount: " + instanceCount);
                 
             }
             return matComposite;
